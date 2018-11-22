@@ -651,5 +651,29 @@
    }
   }
  },
- "_credentialSecret": "69ce9b535c4fa08f274b01c92981332463f70b00afc1a1c5c59094c57a7e111a"
+ "users": {
+  "_": {
+   "editor": {
+    "view": {
+     "view-grid-size": 20,
+     "view-node-status": true,
+     "view-show-tips": true,
+     "view-snap-grid": true,
+     "view-show-grid": true
+    }
+   }
+  },
+  "gith": {
+   "editor": {
+    "view": {
+     "view-grid-size": 20,
+     "view-node-status": true,
+     "view-show-tips": true,
+     "view-snap-grid": true,
+     "view-show-grid": true
+    }
+   }
+  }
+ },
+ "_credentialSecret": "c828971224b4645d65812f43382ad3a00d38d38223ceb10897d69ae72d1d7ae8"
 }

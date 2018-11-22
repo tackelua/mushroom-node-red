@@ -121,14 +121,14 @@ module.exports = {
     // -----------------
     // To password protect the Node-RED editor and admin API, the following
     // property can be used. See http://nodered.org/docs/security.html for details.
-    //adminAuth: {
-    //    type: "credentials",
-    //    users: [{
-    //        username: "admin",
-    //        password: "$2a$08$zZWtXTja0fB1pzD4sHCMyOCMYz2Z6dNbM6tl8sJogENOMcxWV9DN.",
-    //        permissions: "*"
-    //    }]
-    //},
+    adminAuth: {
+        type: "credentials",
+        users: [{
+            username: "gith",
+            password: "$2a$08$UJLkXXvrFme9WHk9OneesOXJ88FcLB.1/ucO4JYlLwZcg8MtQGrPW", //123
+            permissions: "*"
+        }]
+    },
 
     // To password protect the node-defined HTTP endpoints (httpNodeRoot), or
     // the static content (httpStatic), the following properties can be used.
@@ -260,7 +260,7 @@ module.exports = {
         },
         page: {
             title: "Smart Mushroom",
-            favicon: __dirname + "\\smartmushroom-icon.ico" //can use '__dirname + "\\img\\favicon.png" (\\ on Windows)'
+            favicon: "/smartmushroom-icon.ico" //can use '__dirname + "\\img\\favicon.png" (\\ on Windows)'
             //css: "/absolute/path/to/custom/css/file",
             //scripts: "/absolute/path/to/custom/js/file" // As of 0.17
         },
