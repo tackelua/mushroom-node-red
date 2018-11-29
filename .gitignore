@@ -19,3 +19,4 @@ locales/zz-ZZ
 nodes/core/locales/zz-ZZ
 !flows/*
 flows/node_modules/
+flows/lib/
